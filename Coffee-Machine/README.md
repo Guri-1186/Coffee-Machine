@@ -72,7 +72,7 @@ A Python-based digital coffee machine simulator that replicates the functionalit
    pip install -r requirements.txt
    ```
 3. Ensure the JSON data file is present in the correct location:
-   `Final_Project_Coffee_Machine/data/coffee_shop_data.json`
+   `Coffee-Machine/data/coffee_shop_data.json`
 
 ## Usage Guide
 

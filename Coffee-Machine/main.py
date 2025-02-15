@@ -19,7 +19,7 @@ def main():
 
         is_on = True
         while is_on:
-            choice = input("What would you like? (espresso/latte/cappuccino/americano): ").strip().lower()
+            choice = input("What would you like? (espresso/latte/cappuccino/americano/report/refill/off): ").strip().lower()
             if choice == "off":
                 if admin.validate_password():
                     print("Shutting down the coffee machine. Goodbye!")
