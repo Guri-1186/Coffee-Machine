@@ -12,7 +12,6 @@ json_file = Path("Coffee-Machine/data/coffee_shop_data.json")
 def main():
     try:
         menu = Menu(json_file)
-        print("Loaded menu:", menu._menu_data) 
         print(menu.menu_items) 
         coffee_machine = CoffeeMachine(water=300, milk=200, coffee=100)
         money_machine = MoneyMachine()

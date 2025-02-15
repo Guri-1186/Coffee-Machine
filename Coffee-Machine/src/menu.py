@@ -3,10 +3,6 @@ from pathlib import Path
 
 base_dir = Path(".")
 json_file = base_dir / "data" / "coffee_shop_data.json"
-
-print(f"Full path: {json_file.resolve()}")
-print(f"File exists: {json_file.exists()}")
-
 class Menu:
     def __init__(self, json_file):
         self.json_file = json_file
